@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from "sonner";
 import Nav from "./nav";
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-zinc-900 text-zinc-400 max-w-2xl mx-5 md:mx-auto pb-20">
+      <Toaster position="top-right" />
         <Nav />
         {children}
         <Analytics />

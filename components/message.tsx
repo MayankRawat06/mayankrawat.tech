@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import send from "./icons/send.svg";
 import load from "./icons/load.svg";
+import { toast } from "sonner";
 
 export default function Message() {
   const [message, setMessage] = useState("");
@@ -30,6 +31,7 @@ export default function Message() {
 
     if (error) {
       console.error(error);
+      toast.error("Error while sending a message, Please try again later.")
       setError(error);
     }
 
@@ -59,6 +61,7 @@ export default function Message() {
                       !loading ? "bg-zinc-200" : "bg-zinc-300"
                     } text-zinc-800 hover:bg-zinc-50 active:bg-zinc-200
                       font-bold flex gap-1 items-center`}
+          onClick={() => toast.success('Message sent successfully!')}
         >
           {loading ? (
             <>
