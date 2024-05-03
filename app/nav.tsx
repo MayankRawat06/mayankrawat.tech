@@ -7,7 +7,7 @@ export default function Nav() {
       <Logo />
       <nav className="flex gap-8">
         <Link
-          href="https://github.com/MayankRawat06/resume/blob/main/MayankRawat.pdf"
+          href="/resume"
           target="_blank"
           rel="noopner noreferrer"
           className="transition hover:text-white"
