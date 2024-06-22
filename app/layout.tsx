@@ -22,6 +22,7 @@ export default function RootLayout({
         <Nav />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
