@@ -2,10 +2,17 @@ export default function About() {
     return (
         <div>
             <p>
-            Hi, I am Mayank Rawat and I am a computer science undergraduate. I love
-        to build and break stuff using code and I know a thing or two about{" "}
-        <span className="text-white font-semibold">web development</span> and{" "}
-        <span className="text-white font-semibold">mobile development</span>.
+            Hi, I am Mayank Rawat and I am a computer science graduate. I love
+        to build and break stuff using code.{"\n"}
+        I have been a part of the E-Commerce team at Fastenal where 
+        I was primarily responsible for managing the existing 
+        e-commerce website and building new features.{"\n"}
+        I have got work experience in{" "}
+        <span className="text-white font-semibold">Java, Spring Boot, React, 
+        and Microservices.</span>{"\n"}
+        Further, I have hands-on experience in{" "}
+        <span className="text-white font-semibold">C/C++, proficiency 
+        in Data Structures and OOPs concepts.</span> 
             </p>
         </div>
     );
