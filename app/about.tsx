@@ -4,9 +4,7 @@ export default function About() {
             <p className="whitespace-pre-wrap">
             Hi, I am Mayank Rawat and I am a computer science graduate. I love
         to build and break stuff using code.{"\n"}
-        I have been a part of the E-Commerce team at Fastenal where 
-        I was primarily responsible for managing the existing 
-        e-commerce website and building new features. I have got work 
+        I&apos;m currently working as a <span className="text-white font-semibold">Software Development Engineer at Amazon</span>. I have got work 
         experience in{" "}
         <span className="text-white font-semibold">Java, Spring Boot, React, 
         and Microservices.</span>{"\n"}
